@@ -10,23 +10,27 @@
 
       <ul class="sz-menu  text-lg">
 
-        <li class="">
-          <a href="/cabinet">Le cabinet</a>
+        <li class="transition-transform duration-500 hover:scale-[1.07] ease group ">
+          <a class="transition-colors duration-300 group-hover:!text-[#CAEB4F]" href="/cabinet">Le cabinet</a>
         </li>
-        <li class="">
-          <a href="/nos-projet">Nos projet</a>
+
+        <li class="transition-transform duration-500 hover:scale-[1.07] ease group">
+          <a class="transition-colors duration-300 group-hover:!text-[#CAEB4F]" href="/nos-projet">Nos projet</a>
         </li>
-        <li class="">
-          <a href="/mag">Le mag</a>
+
+        <li class="transition-transform duration-500 hover:scale-[1.07] ease group">
+          <a class="transition-colors duration-300 group-hover:!text-[#CAEB4F]" href="/mag">Le mag</a>
         </li>
-        <li class="">
-          <a href="/Press">Press</a>
+
+        <li class="transition-transform duration-500 hover:scale-[1.07] ease group">
+          <a href="/Press" class="transition-colors duration-300 group-hover:!text-[#CAEB4F]">Press</a>
         </li>
+
         <li class="">
-        <a href="/estimation" class="rounded-full bg-[#CAEB4F]  py-3 px-7  flex gap-2 items-center group ">
+         <a href="/estimation" class="rounded-full bg-[#CAEB4F]  py-3 px-6  flex gap-2 items-center group hover:scale-105 duration-1000  ">
           Estimation
           <div class="w-8 ">
-            <img class="transition-transform duration-1000 group-hover:rotate-y-360" src="<?= get_template_directory_uri() . '/assets/images/dollar.svg' ?>" alt="">
+            <img class="transition-transform duration-1000 group-hover:rotate-y-360 " src="<?= get_template_directory_uri() . '/assets/images/dollar.svg' ?>" alt="">
           </div>
         </a>
 

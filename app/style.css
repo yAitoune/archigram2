@@ -25,7 +25,7 @@ body {
 
   /* Desktop */
   --sz-navbar-width: 70%;
-  --sz-navbar-background: #fff1f1;
+  --sz-navbar-background: #ffffff;
   --sz-navbar-text-color: #000000;
 
   /* Mobile */
@@ -36,6 +36,9 @@ body {
   --sz-navbar-mobile-links-padding: 40px;
 }
 
+.main-container {
+  @apply container mx-auto px-4
+}
 .sz-navbar {
   position: fixed;
   top: 0;
@@ -46,6 +49,7 @@ body {
   align-items: center;
   transition: all 0.3s;
   color: var(--sz-navbar-text-color);
+  background-color: var(--sz-navbar-background);
 }
 
 .sz-navbar .sz-container {
